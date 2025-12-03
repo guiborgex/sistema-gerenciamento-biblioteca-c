@@ -74,3 +74,4 @@ ________________________________________
 8 - CONSIDERAÇÕES FINAIS
 
 O Sistema de Gerenciamento de Biblioteca desenvolvido atende aos requisitos propostos, explorando conceitos fundamentais da linguagem C, como estruturas de dados, modularização, controle de fluxo e manipulação de arquivos. A aplicação demonstra organização, clareza e funcionalidade, servindo como uma solução prática para o gerenciamento básico de bibliotecas, além de contribuir para o  meu aprendizado como desenvolvedor.
+
