@@ -1,0 +1,76 @@
+MANUAL DO USUÁRIO - SISTEMA DE GERENCIAMENTO DE BIBLIOTECA EM LINGUAGEM C
+________________________________________
+
+1 - INTRODUÇÃO
+
+O presente manual tem como objetivo apresentar o funcionamento do Sistema de Gerenciamento de Biblioteca desenvolvido em linguagem C como atividade acadêmica da disciplina. O sistema foi projetado para auxiliar no controle de usuários, livros e empréstimos, permitindo o cadastro, consulta, atualização e geração de relatórios, utilizando conceitos fundamentais de programação estruturada.
+O sistema utiliza estruturas, vetores, funções modulares e manipulação de arquivos para garantir a persistência dos dados, proporcionando uma solução organizada e funcional para a administração de uma biblioteca de pequeno porte.
+________________________________________
+
+2 - REQUISITOS PARA EXECUÇÃO
+
+Para a execução correta do sistema, é necessário atender aos seguintes requisitos:
+• Sistema operacional Windows
+• Compilador GCC (MinGW ou similar)
+• Ambiente de desenvolvimento (Code::Blocks ou Dev-C++)
+• Conhecimentos básicos de utilização do terminal
+O sistema utiliza apenas bibliotecas padrão da linguagem C, não sendo necessária a instalação de bibliotecas externas.
+________________________________________
+
+3 - INICIALIZAÇÃO DO SISTEMA
+
+Ao executar o programa, o sistema exibe um menu principal no terminal, permitindo ao usuário navegar entre as funcionalidades disponíveis por meio da digitação da opção desejada.
+O menu principal centraliza todas as operações do sistema, garantindo facilidade de uso e organização das funcionalidades.
+________________________________________
+
+4 - CONTROLE DE USUÁRIOS
+
+O módulo de controle de usuários é responsável pelo gerenciamento das informações dos usuários da biblioteca.
+4.1 Cadastrar Usuário
+Essa funcionalidade permite o registro de novos usuários no sistema, solicitando informações como matrícula, nome e demais dados necessários. O sistema valida os dados antes de confirmar o cadastro.
+4.2 Listar Usuários
+Permite a visualização de todos os usuários cadastrados no sistema, exibindo suas informações de forma organizada.
+4.3 Pesquisar Usuário
+O sistema possibilita a busca de usuários por matrícula ou nome, facilitando a consulta rápida aos registros existentes. Caso nenhum usuário seja encontrado, uma mensagem de aviso é exibida.
+________________________________________
+
+5 - CONTROLE DE LIVROS
+
+Este módulo é responsável pelo gerenciamento do acervo da biblioteca.
+5.1 Cadastrar Livro
+Permite o cadastro de novos livros, solicitando informações como código, título, autor e quantidade disponível.
+5.2 Listar Livros
+Exibe todos os livros cadastrados, apresentando seus dados completos para consulta.
+5.3 Pesquisar Livro
+Possibilita a busca de livros por título ou código. Após a consulta, o sistema permite ao usuário retornar ao menu anterior.
+5.4 Busca Avançada de Livros
+A busca avançada permite localizar livros utilizando múltiplos critérios, como título, autor ou disponibilidade, tornando a consulta mais precisa e eficiente.
+________________________________________
+
+6 - EMPRÉSTIMOS E DEVOLUÇÕES
+
+Este módulo controla o fluxo de empréstimos dos livros cadastrados no sistema.
+6.1 Registrar Empréstimo
+Permite registrar o empréstimo de um livro para um usuário específico, armazenando a data de empréstimo e a data prevista de devolução.
+6.2 Listar Empréstimos
+Exibe todos os empréstimos registrados, apresentando informações do livro, do usuário e as respectivas datas.
+6.3 Empréstimos Ativos
+Mostra apenas os empréstimos que ainda não foram devolvidos, facilitando o controle da biblioteca.
+6.4 Devolver Livro
+Permite registrar a devolução de um livro, atualizando o status do empréstimo e a quantidade disponível do livro no acervo.
+6.5 Relatório de Livro Mais Emprestado
+Gera um relatório exibindo apenas o livro que possui o maior número de empréstimos registrados no sistema.
+6.6 Relatório de Usuários com Empréstimos em Atraso
+Apresenta os usuários que possuem empréstimos com data de devolução ultrapassada, auxiliando no controle de pendências.
+6.7 Renovar Empréstimo
+Permite a renovação do prazo de devolução de um empréstimo ativo, desde que respeitadas as regras definidas no sistema.
+________________________________________
+
+7 - SALVAMENTO E BACKUP DE DADOS
+
+O sistema realiza o salvamento automático dos dados em arquivos, garantindo que as informações não sejam perdidas ao encerrar o programa. Dessa forma, os dados são carregados novamente na próxima execução.
+________________________________________
+
+8 - CONSIDERAÇÕES FINAIS
+
+O Sistema de Gerenciamento de Biblioteca desenvolvido atende aos requisitos propostos, explorando conceitos fundamentais da linguagem C, como estruturas de dados, modularização, controle de fluxo e manipulação de arquivos. A aplicação demonstra organização, clareza e funcionalidade, servindo como uma solução prática para o gerenciamento básico de bibliotecas, além de contribuir para o  meu aprendizado como desenvolvedor.
