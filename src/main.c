@@ -343,10 +343,10 @@ void busca_avancada_livros() {
     /* Autor */
     ler_string("Parte do autor: ", autor, sizeof(autor));
 
-    /* Ano mÌnimo */
+    /* Ano m√≠nimo */
     ano_min = ler_inteiro("Ano minimo (0 para ignorar): ", 0, 2100);
 
-    /* Ano m·ximo */
+    /* Ano m√°ximo */
     ano_max = ler_inteiro("Ano maximo (0 para ignorar): ", 0, 2100);
 
     /* Disponibilidade */
